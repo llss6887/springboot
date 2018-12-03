@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://182.61.34.13:3306/jpa_test
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jooq:
+    sql-dialect: org.hibernate.dialect.MySQL5InnoDBDialect
