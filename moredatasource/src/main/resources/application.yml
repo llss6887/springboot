@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+master:
+  datasource:
+    url: jdbc:mysql://182.61.34.13:3306/test?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+
+
+slave:
+  datasource:
+    url: jdbc:mysql://182.61.34.13:3306/test?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
