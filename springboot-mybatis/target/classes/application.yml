@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://182.61.34.13:3306/springboot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      username: root
+      password: root
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  type-aliases-package: com.llss.domain
