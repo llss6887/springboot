@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  activemq:
+    in-memory: true
+    broker-url: failover:(tcp://localhost:60001,tcp://localhost:60002,tcp://localhost:60002)
+    pool:
+      enabled: false
+
+messages:
+  queue: my_queue
+
