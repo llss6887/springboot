@@ -1,0 +1,15 @@
+server:
+  port: 8111
+spring:
+  dubbo:
+    application:
+      id: auth-branch
+      name: auth-branch
+    registry:
+      address: zookeeper://182.61.34.13:2181
+    protocol:
+      id: dubbo
+      name: dubbo
+      port: 20881
+      status : server
+    scan: com.lls.client.impl

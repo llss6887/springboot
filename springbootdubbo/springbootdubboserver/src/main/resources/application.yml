@@ -1,0 +1,15 @@
+server:
+  port: 8100
+spring:
+  dubbo:
+    application:
+      id: liss
+      name: liss
+    registry:
+      address: zookeeper://182.61.34.12:2181
+    protocol:
+      id: dubbo
+      name: dubbo
+      port: 20881
+      status : server
+    scan: com.lls.server.impl
