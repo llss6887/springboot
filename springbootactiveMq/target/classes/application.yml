@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  activemq:
+    in-memory: true
+    broker-url: tcp://localhost:61616
+    pool:
+      enabled: false
+
+messages:
+  queue: my_queue
+
