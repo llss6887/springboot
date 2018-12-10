@@ -1,7 +1,6 @@
 package com.llss;
 
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import com.llss.produce.ActiveMQProducer;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -13,6 +13,6 @@ public class ActiveMQConsumer {
 
     @JmsListener(destination = "my_queue")
     public void distribute(String json){
-        System.out.println(json);
+        System.out.println("------------------------------------------------------------------------------------------------------這是我的集群"+json);
     }
 }

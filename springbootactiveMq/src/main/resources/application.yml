@@ -3,7 +3,7 @@ server:
 spring:
   activemq:
     in-memory: true
-    broker-url: tcp://localhost:61616
+    broker-url: failover:(tcp://localhost:60001,tcp://localhost:60002,tcp://localhost:60002)
     pool:
       enabled: false
 

@@ -8,5 +8,5 @@
         insert into t_user
         (real_name) values(#{realName})
     </insert>
-    
+
 </mapper>
